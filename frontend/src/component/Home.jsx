@@ -43,8 +43,8 @@ function Home() {
   return (
     <div className='max-w-screen-2xl mx-auto container px-6 py-5 md:px-40  '>
       <div className=' border-2 w-[78%] mx-auto border-dotted border-blue-950 p-5 mt-10 flex flex-col justify-center items-center rounded-lg'>
-        <h1 className='text-4xl font-semibold'>Convert Word to PDF Online</h1>
-        <p className='text-xl mt-8'>Easily Convert Word Documents to PDF Online, without having to install any software.</p>
+        <h1 className='text-2xl text-center md:text-4xl font-semibold'>Convert Word to PDF Online</h1>
+        <p className='text-xl mt-8 text-justify'>Easily Convert Word Documents to PDF Online, without having to install any software.</p>
         <div className='flex flex-col space-y-4 w-[80%]'>
           <input type="file" 
           name="file" 
