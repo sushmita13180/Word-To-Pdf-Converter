@@ -8,7 +8,7 @@ function Home() {
   const [convert, setconvert] = useState("");
   const [downloaderror,setdownloaderror] = useState("");
   const handlefilechange=(e)=>{
-    console.log(e.target.files[0]);
+    // console.log(e.target.files[0]);
     setselectedfile(e.target.files[0]);
   }
   const handlesubmit = async (e)=>{
@@ -43,11 +43,7 @@ function Home() {
   return (
     <div className='max-w-screen-2xl mx-auto container px-6 py-5 md:px-40  '>
       <div className=' border-2 w-[78%] mx-auto border-dotted border-blue-950 p-5 mt-10 flex flex-col justify-center items-center rounded-lg'>
-<<<<<<< HEAD
         <h1 className='text-2xl text-center md:text-4xl font-semibold '>Convert Word to PDF Online</h1>
-=======
-        <h1 className='text-2xl text-center md:text-4xl font-semibold'>Convert Word to PDF Online</h1>
->>>>>>> e7b66e7a375bc619bffe106889206613d73fd9d7
         <p className='text-xl mt-8 text-justify'>Easily Convert Word Documents to PDF Online, without having to install any software.</p>
         <div className='flex flex-col space-y-4 w-[80%]'>
           <input type="file" 
